@@ -6,7 +6,7 @@ address{
 	background-color: blueviolet;
 }
 textarea{
-	background-color: gray;
+	background-color: palegoldenrod;
 
 }
 
@@ -23,4 +23,49 @@ h1 {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.form_control{
+	border: 4px solid black;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left: 25%;
+	border-radius: 10px;
+}
+
+.content_div{
+
+	justify-content: center;
+	text-align: center;
+}
+
+.NameText{
+	margin-top: 30px;
+
+}
+.btn{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.address{
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+.email{
+	margin-bottom: 20px;
+	margin-top: 18px;
+}
+
+.card{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.CVV{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }

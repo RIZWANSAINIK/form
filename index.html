@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>PAYMENT FORM</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-		<form action="server name">
-			<h1>PAYMENT FORM</h1>
-			<h2>CONATCT INFORMATION</h2>
-			<P>NAME: <input type="text" name="name"></P>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PAYMENT FORM</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div >
+			<h2 class="content_div">PAYMENT FORM</h2>
+			
+		</div>
+		<div class="form_control">
+			<form method="" action="server_name">
+				<h3 class="content_div">CONATCT INFORMATION</h3>
+				<div class="NameText">
+					<label>Enter Your Name : </label>
+					<input type="text" name="" value="" placeholder="Enter Your Name">
+				</div>
+				<div class="NameText">
+					<label>Enter Mobile Number: </label>
+					<input type="number" name="" value="" placeholder="Enter Your Phone Number">
+				</div>
+				<div class="NameText">
+					<label>Gender: </label>
+					Male<input type="radio" name="gender" value="Male">
+					Female<input type="radio" name="gender" value="Female">
+					Others<input type="radio" name="gender" value="Others">
+				</div>
+				<div class="email">
+					<label>Enter Your email : </label>
+					<input type="text" name="" value="" placeholder="Enter Your email">
+				</div>
+				<div class="address">
+					<label for="address">Address:</label>
+					<textarea id="address" name="address" rows="4" cols="25%">
+					</textarea>
+				</div>
+				<div class="card">
+					<label for="card">Choose card type:</label>
+					<select name="card" id="card">
+						<option value="debit card">debit card</option>
+						<option value="credit card">credit card</option>
+						<option value="razor pay">razor pay</option>
+						<option value="visa">visa</option>
+					</select>
+				</div>
+				<div>
+					<label>Enter card Number: </label>
+					<input type="number" name="" value="" placeholder="Enter Your 16 digit card Number">	</div>
+					<div class="CVV">
+						<label for="pwd">CVV:</label>
+						<input type="password" id="pwd" name="pwd">
+					</div>
 
-			<fieldset>
-				
-				<p>male <input type="radio" name="gender" id="male">
-			    	female<input type="radio" name="gender" id="female">
-			</p>
-			</fieldset>
-
-			<p>Address:<textarea name="Address" id="Address" cols="100" rows="8"></textarea></p>
-			<p>email:<input type="email" name="email" id="email"></p>
-			<p>pincode:<input type="number" name="pincode" id="pincode"></p>
-
-<hr>
-			<h2>PAYMENT INFO</h2>
-			<P>CARD TYPE:
-			    <select name="card type" id="card type">
-			    	<option value=" ">--select card--</option>
-			    	<option value="visa">visa</option>
-			    	<option value="debitcard">debitcard</option>
-			    	<option value="creditcard">creditcard</option>
-			    	<option value="rupay">rupay</option>
-			    </select>
-			</P>
-			<p>card number: <input type="number" name="card number" id="card number"></p>
-			<p>expiration date: <input type="date" name="exp_date" id="exp_date"></p>	
-			<p>CVV <input type="password" name="CVV" id="CVV"></p>	
-
-			<input type="submit" value="PAY NOW">
-</body>
-</html>
+					<div class="OTP">
+						<label for="pwd">OTP:</label>
+						<input type="password" id="password" name="password">
+					</div>
+					<div class="btn">
+						<input type="submit" name="" value="PAY NOW">
+					</div>
+					
+				</form>
+			</div>
+		</body>
+	</html>
