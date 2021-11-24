@@ -26,7 +26,7 @@ h1 {
 }
 
 .form_control{
-	border: 4px solid black;
+	border: 2px solid black;
 	width: 50%;
 	display: flex;
 	justify-content: center;
